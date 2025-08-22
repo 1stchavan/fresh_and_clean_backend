@@ -21,7 +21,7 @@ import java.util.stream.Stream;
 @CrossOrigin(origins = "https://fresh-and-clean-git-main-prathameshs-projects-4f0b241d.vercel.app", allowCredentials = "true")
 public class AuthController {
 
-    @PostMapping("/testconnect")
+    @GetMapping("/testconnect")
    public String Connect(){
         return "Deployment of springboot backend is successful";
     }
